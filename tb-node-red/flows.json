@@ -1,0 +1,328 @@
+[
+    {
+        "id": "ebe93c2856190779",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "49ded91b5db3bac2",
+        "type": "mqtt out",
+        "z": "ebe93c2856190779",
+        "name": "",
+        "topic": "v1/devices/me/telemetry",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1bfe7c0dcaa7714e",
+        "x": 1170,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "eccd04db7ec91e92",
+        "type": "mqtt in",
+        "z": "ebe93c2856190779",
+        "name": "",
+        "topic": "v1/devices/me/rpc/request/+",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "1bfe7c0dcaa7714e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 660,
+        "wires": [
+            [
+                "29116c38d362c4a0",
+                "96cf57c08c91c79c"
+            ]
+        ]
+    },
+    {
+        "id": "d2873c51fafed995",
+        "type": "mqtt out",
+        "z": "ebe93c2856190779",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1bfe7c0dcaa7714e",
+        "x": 730,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "29116c38d362c4a0",
+        "type": "function",
+        "z": "ebe93c2856190779",
+        "name": "function 1",
+        "func": "if (msg.payload['method']=='getValue')\n{\n    let sharedValue = flow.get(\"sharedValue\");\n    let temp = msg.topic.split(\"/\")\n    msg.topic = \"v1/devices/me/rpc/response/\" + temp[5];\n    msg.payload = sharedValue;\n    return msg;\n\n}else if (msg.payload['method']=='setValue'){\n\n    let temp = msg.topic.split(\"/\")\n    msg.topic = \"v1/devices/me/rpc/response/\" + temp[5];\n    flow.set(\"sharedValue\", msg.payload['params']);\n    msg.payload = temp[5];\n    return msg;\n\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 600,
+        "wires": [
+            [
+                "d2873c51fafed995"
+            ]
+        ]
+    },
+    {
+        "id": "186c4bd704455f63",
+        "type": "function",
+        "z": "ebe93c2856190779",
+        "name": "function 2",
+        "func": "flow.set(\"sharedValue\", msg.payload); // Storing the value in the flow context\nmsg.payload = msg.payload;\n\nreturn msg; // Pass the message along (optional)\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "96cf57c08c91c79c",
+        "type": "function",
+        "z": "ebe93c2856190779",
+        "name": "function 3",
+        "func": "if (msg.payload['method']=='agetValue')\n{\n    let sharedValue = flow.get(\"sharedValue\");\n    let temp = msg.topic.split(\"/\")\n    msg.topic = \"v1/devices/me/rpc/response/\" + temp[5];\n    msg.payload = sharedValue;\n    return msg;\n\n}else if (msg.payload['method']=='asetValue'){\n    flow.set(msg.payload['params']);\n    let temp = msg.topic.split(\"/\")\n    msg.topic = \"v1/devices/me/rpc/response/\" + temp[5];\n    let sharedValue = flow.get(\"sharedValue\");\n    msg.payload = sharedValue;\n    return msg;\n\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 700,
+        "wires": [
+            [
+                "d2873c51fafed995"
+            ]
+        ]
+    },
+    {
+        "id": "bec02481abb01e39",
+        "type": "function",
+        "z": "ebe93c2856190779",
+        "name": "function 4",
+        "func": "let sharedValue = flow.get(\"sharedValue\"); \nmsg.topic = \"v1/devices/me/rpc/request/10\";\nmsg.payload = { \"act_1\": sharedValue };\n\nreturn msg; // Pass the message along (optional)\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 260,
+        "wires": [
+            [
+                "49ded91b5db3bac2"
+            ]
+        ]
+    },
+    {
+        "id": "38ebf1b905c33828",
+        "type": "inject",
+        "z": "ebe93c2856190779",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 260,
+        "wires": [
+            [
+                "bec02481abb01e39",
+                "3859cf2d3b4733c1"
+            ]
+        ]
+    },
+    {
+        "id": "e9a6ad54c5c442ea",
+        "type": "ui_switch",
+        "z": "ebe93c2856190779",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "d6669c5ab7b47f73",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 750,
+        "y": 160,
+        "wires": [
+            [
+                "186c4bd704455f63"
+            ]
+        ]
+    },
+    {
+        "id": "cbb563e12cf9d18c",
+        "type": "ui_numeric",
+        "z": "ebe93c2856190779",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "d6669c5ab7b47f73",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "76af38109ffa86cd"
+            ]
+        ]
+    },
+    {
+        "id": "76af38109ffa86cd",
+        "type": "function",
+        "z": "ebe93c2856190779",
+        "name": "function 5",
+        "func": "let temp = msg.payload \nmsg.payload ={\"temp\":temp}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 360,
+        "wires": [
+            [
+                "49ded91b5db3bac2"
+            ]
+        ]
+    },
+    {
+        "id": "3859cf2d3b4733c1",
+        "type": "function",
+        "z": "ebe93c2856190779",
+        "name": "function 6",
+        "func": "let sharedValue = flow.get(\"sharedValue\"); \nmsg.payload = sharedValue;\nreturn msg; // Pass the message along (optional)\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 180,
+        "wires": [
+            [
+                "e9a6ad54c5c442ea"
+            ]
+        ]
+    },
+    {
+        "id": "1bfe7c0dcaa7714e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "wia0ii9elfw9ao9jl0b3",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d6669c5ab7b47f73",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "74b89b6b23b306b7",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "74b89b6b23b306b7",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

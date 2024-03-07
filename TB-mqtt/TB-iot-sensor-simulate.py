@@ -11,8 +11,8 @@ import paho.mqtt.client as mqtt
 import threading
 
 # Thingsboard platform credentials
-THINGSBOARD_HOST = 'X.X.X.X'  # Change IP Address
-ACCESS_TOKEN = 'YOUR TOKEN'
+THINGSBOARD_HOST = '192.168.3.225'  # Change IP Address
+ACCESS_TOKEN = 'ekzarrqhnhcc91p1xwiu'
 # Actuator states dictionary
 actuator_states = {"actuator1": True, "actuator2": False, "actuator3": False,'Fuel':20}
 

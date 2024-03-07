@@ -1,0 +1,78 @@
+{
+    "smartHome": {
+      "accessToken": "a9exqlsrcz5vvkiuprfa",
+      "sensors": [
+        {
+          "name": "temperature",
+          "type": "float",
+          "minValue": 15,
+          "maxValue": 30,
+          "step": 0.5,
+          "duration": 10
+        },
+        {
+          "name": "humidity",
+          "type": "float",
+          "minValue": 30,
+          "maxValue": 70,
+          "step": 1,
+          "duration": 15
+        },
+        {
+          "name": "motionDetection",
+          "type": "binary",
+          "values": [0, 1],
+          "duration": 5
+        },
+        {
+          "name": "doorStatus",
+          "type": "binary",
+          "values": [0, 1],  
+          "duration": 20
+        },
+        {
+          "name": "lightIntensity",
+          "type": "int",
+          "minValue": 0,
+          "maxValue": 100,
+          "step": 5,
+          "duration": 10
+        },
+        {
+          "name": "smokeDetection",
+          "type": "binary",
+          "values": [0, 1],
+          "duration": 30
+        },
+        {
+          "name": "CO2Level",
+          "type": "int",
+          "minValue": 400,
+          "maxValue": 1000,
+          "step": 10,
+          "duration": 20
+        },
+        {
+          "name": "waterLeakDetection",
+          "type": "binary",
+          "values": [0, 1],
+          "duration": 25
+        },
+        {
+          "name": "windowStatus",
+          "type": "binary",
+          "values": [0, 1],  
+          "duration": 20
+        },
+        {
+          "name": "thermostatSetting",
+          "type": "float",
+          "minValue": 18,
+          "maxValue": 25,
+          "step": 0.5,
+          "duration": 15
+        }
+      ]
+    }
+  }
+  
