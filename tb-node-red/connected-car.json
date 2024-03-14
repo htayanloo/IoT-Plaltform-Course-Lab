@@ -1,0 +1,2299 @@
+[
+    {
+        "id": "c45756e6e9a0f0ed",
+        "type": "tab",
+        "label": "UI",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "36cb70314541f571",
+        "type": "group",
+        "z": "c45756e6e9a0f0ed",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c6030bdf21764e65",
+            "4fadb499056ab1cc",
+            "40185e7b02857cfa",
+            "673401fd24b9827b",
+            "415b1dac54204010"
+        ],
+        "x": 14,
+        "y": 4379,
+        "w": 912,
+        "h": 142
+    },
+    {
+        "id": "bf0cf0e7bf1d964a",
+        "type": "group",
+        "z": "c45756e6e9a0f0ed",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a8f4c51c3d2c03f2",
+            "d2873c51fafed995",
+            "29116c38d362c4a0",
+            "eccd04db7ec91e92"
+        ],
+        "x": 14,
+        "y": 3679,
+        "w": 1032,
+        "h": 82
+    },
+    {
+        "id": "459bf799a305feb2",
+        "type": "group",
+        "z": "c45756e6e9a0f0ed",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "98ca32bbef0232bc",
+            "45c60561e4dbaf33",
+            "769d9240de017d2a",
+            "1e938f8476190a28",
+            "44eae65fe9c57599",
+            "ae0088cd4f0143dd",
+            "f2b987a263017a4f",
+            "664e7ef34f1b7f72",
+            "5176ddbc9119d26b",
+            "ad2e6a70b1ba2cb1"
+        ],
+        "x": 14,
+        "y": 3899,
+        "w": 992,
+        "h": 342
+    },
+    {
+        "id": "03ca58be6bf6b83a",
+        "type": "group",
+        "z": "c45756e6e9a0f0ed",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8b1236d70f8bab5b",
+            "eed698a3f7d5d14b",
+            "32b6e1321ca399bb",
+            "ec62a25cd840c057"
+        ],
+        "x": 154,
+        "y": 4739,
+        "w": 842,
+        "h": 82
+    },
+    {
+        "id": "af65c270ec425ca3",
+        "type": "group",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Request RPC Engine On",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fdf3b827fc74b669",
+            "0cec506d0748368c",
+            "af8603c8cd0f3864",
+            "d10b7b71ef5dfb6e",
+            "dea8ba391a3425e4"
+        ],
+        "x": 154,
+        "y": 4799,
+        "w": 912,
+        "h": 122
+    },
+    {
+        "id": "df564d1c47ae11c3",
+        "type": "group",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Get Engine status from Telemetry",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "744e5c6a8e9c35c0",
+            "9fec6220aa0edf1b",
+            "aabadd74cd1da3ec",
+            "7a61e85e981f0256",
+            "14574a03fcf4803b"
+        ],
+        "x": 194,
+        "y": 5079,
+        "w": 1072,
+        "h": 102
+    },
+    {
+        "id": "bcca841510566b6b",
+        "type": "group",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Get RPM",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a1f49f8384b18fbb",
+            "9be628a692620a5f",
+            "2aef8adc0e5db9b5",
+            "e49cf83a367996a0"
+        ],
+        "x": 194,
+        "y": 5239,
+        "w": 1052,
+        "h": 82
+    },
+    {
+        "id": "3ce840e09e995bdf",
+        "type": "ui_switch",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "label": "Engine",
+        "tooltip": "",
+        "group": "7bcfe0d9572d9919",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 720,
+        "y": 260,
+        "wires": [
+            [
+                "c2f485d19e1bc85d"
+            ]
+        ]
+    },
+    {
+        "id": "1ef499ab6e7985ae",
+        "type": "ui_switch",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "label": "Windows_1",
+        "tooltip": "",
+        "group": "7bcfe0d9572d9919",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 710,
+        "y": 300,
+        "wires": [
+            [
+                "98b7358bde34e354"
+            ]
+        ]
+    },
+    {
+        "id": "b40349ae1813b806",
+        "type": "ui_switch",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "label": "Windows_2",
+        "tooltip": "",
+        "group": "7bcfe0d9572d9919",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 710,
+        "y": 340,
+        "wires": [
+            [
+                "deb7663e4a27e502"
+            ]
+        ]
+    },
+    {
+        "id": "88fcc219f0e5bf4d",
+        "type": "ui_switch",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "label": "Windows_2",
+        "tooltip": "",
+        "group": "7bcfe0d9572d9919",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 710,
+        "y": 380,
+        "wires": [
+            [
+                "2ebe773333d0f641"
+            ]
+        ]
+    },
+    {
+        "id": "426d42e465833176",
+        "type": "ui_switch",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "label": "Windows_2",
+        "tooltip": "",
+        "group": "7bcfe0d9572d9919",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 710,
+        "y": 420,
+        "wires": [
+            [
+                "fa6a2ad820da811f"
+            ]
+        ]
+    },
+    {
+        "id": "21289bc1945f458e",
+        "type": "ui_switch",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "label": "Fuel Pump",
+        "tooltip": "",
+        "group": "7bcfe0d9572d9919",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 710,
+        "y": 460,
+        "wires": [
+            [
+                "704a74e284cb5bc0"
+            ]
+        ]
+    },
+    {
+        "id": "f73a8f8d1bbf0ee7",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 10",
+        "func": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\nlet fuel_level = flow.set(\"fuel_level\", 0);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\nlet fuel_level = flow.set(\"fuel_level\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a3f595752628761",
+        "type": "ui_button",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "group": "f1af30626a5bc418",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Car Trunk Open",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 700,
+        "y": 500,
+        "wires": [
+            [
+                "03ac337aafcd7074"
+            ]
+        ]
+    },
+    {
+        "id": "61e1a6c592b4113a",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"engine\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "819421ad65f27481",
+        "type": "inject",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 40,
+        "wires": [
+            [
+                "f73a8f8d1bbf0ee7"
+            ]
+        ]
+    },
+    {
+        "id": "c6030bdf21764e65",
+        "type": "mqtt out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "36cb70314541f571",
+        "name": "",
+        "topic": "v1/devices/me/telemetry",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1bfe7c0dcaa7714e",
+        "x": 790,
+        "y": 4480,
+        "wires": []
+    },
+    {
+        "id": "4fadb499056ab1cc",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "36cb70314541f571",
+        "name": "function 13",
+        "func": "let windows_1 = flow.get(\"windows_1\"); \nlet windows_2 = flow.get(\"windows_2\"); \nlet windows_3 = flow.get(\"windows_3\"); \nlet windows_4 = flow.get(\"windows_4\"); \nlet engine = flow.get(\"engine\"); \nlet fuel_pump = flow.get(\"fuel_pump\"); \nlet rpm = flow.get(\"rpm\"); \nlet fuel_level = flow.get(\"fuel_level\"); \nif (engine==true){\n\n   rpm = Math.round((Math.random() * (3000 - 1000) + 1000))/1000\n    flow.set(\"rpm\",rpm); \n}\n\nmsg.payload = { \n    \"windows_1\": windows_1,\n    \"windows_2\": windows_2,\n    \"windows_3\": windows_3,\n    \"windows_4\": windows_4,\n    \"engine\": engine,\n    \"fuel_pump\": fuel_pump,\n    \"rpm\": rpm,\n    \"fuel_level\":fuel_level\n };\n\nreturn msg; ",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 4480,
+        "wires": [
+            [
+                "415b1dac54204010"
+            ]
+        ]
+    },
+    {
+        "id": "40185e7b02857cfa",
+        "type": "inject",
+        "z": "c45756e6e9a0f0ed",
+        "g": "36cb70314541f571",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 4480,
+        "wires": [
+            [
+                "4fadb499056ab1cc"
+            ]
+        ]
+    },
+    {
+        "id": "eccd04db7ec91e92",
+        "type": "mqtt in",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bf0cf0e7bf1d964a",
+        "name": "",
+        "topic": "v1/devices/me/rpc/request/+",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "1bfe7c0dcaa7714e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 3720,
+        "wires": [
+            [
+                "29116c38d362c4a0"
+            ]
+        ]
+    },
+    {
+        "id": "d2873c51fafed995",
+        "type": "mqtt out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bf0cf0e7bf1d964a",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1bfe7c0dcaa7714e",
+        "x": 970,
+        "y": 3720,
+        "wires": []
+    },
+    {
+        "id": "29116c38d362c4a0",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bf0cf0e7bf1d964a",
+        "name": "Engine",
+        "func": "let sharedValue = flow.get(\"sharedValue\");\nlet temp = msg.topic.split(\"/\")\nmsg.topic = \"v1/devices/me/rpc/response/\" + temp[5];\nmsg.payload = 111\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 3720,
+        "wires": [
+            [
+                "a8f4c51c3d2c03f2"
+            ]
+        ]
+    },
+    {
+        "id": "a8f4c51c3d2c03f2",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bf0cf0e7bf1d964a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 3720,
+        "wires": [
+            [
+                "d2873c51fafed995"
+            ]
+        ]
+    },
+    {
+        "id": "6f98bd74ef3188a1",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"windows_1\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e73945a4e8b703fd",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"windows_2\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc7eba2f68bd6573",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"windows_3\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91797567d8a31130",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"windows_4\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25e67ccb8b6c9347",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"fuel_pump\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9afed6efabb5db4f",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"trunk\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98b7358bde34e354",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 920,
+        "y": 300,
+        "wires": [
+            [
+                "6f98bd74ef3188a1"
+            ]
+        ]
+    },
+    {
+        "id": "deb7663e4a27e502",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 920,
+        "y": 340,
+        "wires": [
+            [
+                "e73945a4e8b703fd"
+            ]
+        ]
+    },
+    {
+        "id": "2ebe773333d0f641",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 920,
+        "y": 380,
+        "wires": [
+            [
+                "fc7eba2f68bd6573"
+            ]
+        ]
+    },
+    {
+        "id": "fa6a2ad820da811f",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 920,
+        "y": 420,
+        "wires": [
+            [
+                "91797567d8a31130"
+            ]
+        ]
+    },
+    {
+        "id": "704a74e284cb5bc0",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 920,
+        "y": 460,
+        "wires": [
+            [
+                "25e67ccb8b6c9347"
+            ]
+        ]
+    },
+    {
+        "id": "03ac337aafcd7074",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 920,
+        "y": 500,
+        "wires": [
+            [
+                "9afed6efabb5db4f"
+            ]
+        ]
+    },
+    {
+        "id": "673401fd24b9827b",
+        "type": "comment",
+        "z": "c45756e6e9a0f0ed",
+        "g": "36cb70314541f571",
+        "name": "",
+        "info": "send telemetry Data to Platform",
+        "x": 420,
+        "y": 4420,
+        "wires": []
+    },
+    {
+        "id": "98ca32bbef0232bc",
+        "type": "mqtt out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1bfe7c0dcaa7714e",
+        "x": 930,
+        "y": 3940,
+        "wires": []
+    },
+    {
+        "id": "45c60561e4dbaf33",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "response_url_gen",
+        "func": "let temp = msg.topic.split(\"/\")\nmsg.topic = \"v1/devices/me/rpc/response/\" + temp[5];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 3940,
+        "wires": [
+            [
+                "98ca32bbef0232bc",
+                "1e938f8476190a28",
+                "44eae65fe9c57599",
+                "ae0088cd4f0143dd",
+                "f2b987a263017a4f",
+                "664e7ef34f1b7f72",
+                "5176ddbc9119d26b",
+                "ad2e6a70b1ba2cb1"
+            ]
+        ]
+    },
+    {
+        "id": "769d9240de017d2a",
+        "type": "mqtt in",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "",
+        "topic": "v1/devices/me/rpc/request/+",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "1bfe7c0dcaa7714e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 3940,
+        "wires": [
+            [
+                "45c60561e4dbaf33"
+            ]
+        ]
+    },
+    {
+        "id": "fa586937ad1c34cb",
+        "type": "link in",
+        "z": "c45756e6e9a0f0ed",
+        "name": "engineon",
+        "links": [
+            "1e938f8476190a28"
+        ],
+        "x": 155,
+        "y": 260,
+        "wires": [
+            [
+                "02ec5c743ef902a4"
+            ]
+        ]
+    },
+    {
+        "id": "02ec5c743ef902a4",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 14",
+        "func": "\nif (msg.payload[\"method\"]==\"EngineSetValue\"){\n    msg.payload = msg.payload[\"params\"]\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 260,
+        "wires": [
+            [
+                "669ca007328f170e"
+            ]
+        ]
+    },
+    {
+        "id": "415b1dac54204010",
+        "type": "rbe",
+        "z": "c45756e6e9a0f0ed",
+        "g": "36cb70314541f571",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 590,
+        "y": 4480,
+        "wires": [
+            [
+                "c6030bdf21764e65"
+            ]
+        ]
+    },
+    {
+        "id": "669ca007328f170e",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 260,
+        "wires": [
+            [
+                "3ce840e09e995bdf"
+            ]
+        ]
+    },
+    {
+        "id": "c2f485d19e1bc85d",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 920,
+        "y": 260,
+        "wires": [
+            [
+                "61e1a6c592b4113a"
+            ]
+        ]
+    },
+    {
+        "id": "8582c9ce4caf7fcb",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 300,
+        "wires": [
+            [
+                "1ef499ab6e7985ae"
+            ]
+        ]
+    },
+    {
+        "id": "1d425e5b9a9703e1",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 340,
+        "wires": [
+            [
+                "b40349ae1813b806"
+            ]
+        ]
+    },
+    {
+        "id": "c4a310cf8367fc7d",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 380,
+        "wires": [
+            [
+                "88fcc219f0e5bf4d"
+            ]
+        ]
+    },
+    {
+        "id": "118cb6195c59b90a",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 420,
+        "wires": [
+            [
+                "426d42e465833176"
+            ]
+        ]
+    },
+    {
+        "id": "b2172e1627b60721",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 460,
+        "wires": [
+            [
+                "21289bc1945f458e"
+            ]
+        ]
+    },
+    {
+        "id": "1b36efc529a843c0",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe4da20dca96ee36",
+        "type": "link in",
+        "z": "c45756e6e9a0f0ed",
+        "name": "windows_1-in",
+        "links": [
+            "ad2e6a70b1ba2cb1"
+        ],
+        "x": 155,
+        "y": 300,
+        "wires": [
+            [
+                "f42ecd51d7a091c1"
+            ]
+        ]
+    },
+    {
+        "id": "f42ecd51d7a091c1",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 15",
+        "func": "\nif (msg.payload[\"method\"]==\"Windows_1SetValue\"){\n    msg.payload = msg.payload[\"params\"]\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "8582c9ce4caf7fcb"
+            ]
+        ]
+    },
+    {
+        "id": "c448b71c951665a3",
+        "type": "link in",
+        "z": "c45756e6e9a0f0ed",
+        "name": "windows_2-in",
+        "links": [
+            "44eae65fe9c57599"
+        ],
+        "x": 155,
+        "y": 340,
+        "wires": [
+            [
+                "7617ef799837d707"
+            ]
+        ]
+    },
+    {
+        "id": "7617ef799837d707",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 16",
+        "func": "\nif (msg.payload[\"method\"]==\"Windows_2SetValue\"){\n    msg.payload = msg.payload[\"params\"]\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "1d425e5b9a9703e1"
+            ]
+        ]
+    },
+    {
+        "id": "29fd9b16bb267b51",
+        "type": "link in",
+        "z": "c45756e6e9a0f0ed",
+        "name": "windows_3-in",
+        "links": [
+            "ae0088cd4f0143dd"
+        ],
+        "x": 155,
+        "y": 380,
+        "wires": [
+            [
+                "3f69f8da063c6586"
+            ]
+        ]
+    },
+    {
+        "id": "3f69f8da063c6586",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 17",
+        "func": "\nif (msg.payload[\"method\"] ==\"Windows_3SetValue\"){\n    msg.payload = msg.payload[\"params\"]\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 380,
+        "wires": [
+            [
+                "c4a310cf8367fc7d"
+            ]
+        ]
+    },
+    {
+        "id": "c2abcb3904830976",
+        "type": "link in",
+        "z": "c45756e6e9a0f0ed",
+        "name": "windows_4-in",
+        "links": [
+            "f2b987a263017a4f"
+        ],
+        "x": 155,
+        "y": 420,
+        "wires": [
+            [
+                "53db73c831e9ed9a"
+            ]
+        ]
+    },
+    {
+        "id": "53db73c831e9ed9a",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 18",
+        "func": "\nif (msg.payload[\"method\"]==\"Windows_3SetValue\"){\n    msg.payload = msg.payload[\"params\"]\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 420,
+        "wires": [
+            [
+                "118cb6195c59b90a"
+            ]
+        ]
+    },
+    {
+        "id": "a2f280f2aefd3a27",
+        "type": "link in",
+        "z": "c45756e6e9a0f0ed",
+        "name": "fuel-pump-in",
+        "links": [
+            "664e7ef34f1b7f72"
+        ],
+        "x": 155,
+        "y": 460,
+        "wires": [
+            [
+                "3a94d21fbae713c8"
+            ]
+        ]
+    },
+    {
+        "id": "3a94d21fbae713c8",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 19",
+        "func": "\nif (msg.payload[\"method\"] ==\"FuelPumpSetValue\"){\n    msg.payload = msg.payload[\"params\"]\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 460,
+        "wires": [
+            [
+                "b2172e1627b60721"
+            ]
+        ]
+    },
+    {
+        "id": "8bf8cbcb0ee8f140",
+        "type": "link in",
+        "z": "c45756e6e9a0f0ed",
+        "name": "trunk-in",
+        "links": [
+            "5176ddbc9119d26b"
+        ],
+        "x": 155,
+        "y": 500,
+        "wires": [
+            [
+                "9e467819cf4c48b9"
+            ]
+        ]
+    },
+    {
+        "id": "9e467819cf4c48b9",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 20",
+        "func": "\nif (msg.payload[\"method\"] ==\"TrunkSetValue\"){\n    msg.payload = msg.payload[\"params\"]\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 500,
+        "wires": [
+            [
+                "1b36efc529a843c0"
+            ]
+        ]
+    },
+    {
+        "id": "eb93d10b0cb05312",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "Engine_F",
+        "func": "flow.set(\"fuel_level\",msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a64f5fc83689269",
+        "type": "ui_numeric",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "label": "Fuel Level",
+        "tooltip": "",
+        "group": "71a0e99f51774889",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 710,
+        "y": 540,
+        "wires": [
+            [
+                "eb93d10b0cb05312"
+            ]
+        ]
+    },
+    {
+        "id": "7753bd59cf32c8e8",
+        "type": "ui_gauge",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "group": "71a0e99f51774889",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "ba88d1d2e3e2f9d1",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "name": "function 21",
+        "func": "let rpm = flow.get(\"rpm\")\nmsg.payload= rpm\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "let windows_1 = flow.set(\"windows_1\", false);\nlet windows_2 = flow.set(\"windows_2\", false);\nlet windows_3 = flow.set(\"windows_3\", false);\nlet windows_4 = flow.set(\"windows_4\", false);\nlet engine = flow.set(\"engine\", false);\nlet fuel_pump = flow.set(\"fuel_pump\", false);\nlet rpm = flow.set(\"rpm\", 0);\nlet trunk = flow.set(\"trunk\", 0);\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 660,
+        "wires": [
+            [
+                "7753bd59cf32c8e8"
+            ]
+        ]
+    },
+    {
+        "id": "7a6e8d7b87e0ea89",
+        "type": "inject",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 660,
+        "wires": [
+            [
+                "ba88d1d2e3e2f9d1"
+            ]
+        ]
+    },
+    {
+        "id": "0cec506d0748368c",
+        "type": "ui_switch",
+        "z": "c45756e6e9a0f0ed",
+        "g": "af65c270ec425ca3",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "6409c3bb2eab31c2",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 230,
+        "y": 4880,
+        "wires": [
+            [
+                "af8603c8cd0f3864"
+            ]
+        ]
+    },
+    {
+        "id": "8b1236d70f8bab5b",
+        "type": "http request",
+        "z": "c45756e6e9a0f0ed",
+        "g": "03ca58be6bf6b83a",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.3.225:8080/api/auth/login",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 650,
+        "y": 4780,
+        "wires": [
+            [
+                "ec62a25cd840c057"
+            ]
+        ]
+    },
+    {
+        "id": "eed698a3f7d5d14b",
+        "type": "inject",
+        "z": "c45756e6e9a0f0ed",
+        "g": "03ca58be6bf6b83a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "180",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 4780,
+        "wires": [
+            [
+                "32b6e1321ca399bb"
+            ]
+        ]
+    },
+    {
+        "id": "32b6e1321ca399bb",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "03ca58be6bf6b83a",
+        "name": "F_Login",
+        "func": "msg.payload={\"username\":\"test@customer.com\", \"password\":\"1990hb\"}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 4780,
+        "wires": [
+            [
+                "8b1236d70f8bab5b"
+            ]
+        ]
+    },
+    {
+        "id": "ec62a25cd840c057",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "03ca58be6bf6b83a",
+        "name": "F_setToken",
+        "func": "let temp = JSON.parse(msg.payload);\nflow.set(\"TOKEN\",\" Bearer \"+temp['token']);\nmsg.payload=temp['token']\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 4780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fdf3b827fc74b669",
+        "type": "http request",
+        "z": "c45756e6e9a0f0ed",
+        "g": "af65c270ec425ca3",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "X-Authorization",
+                "valueType": "msg",
+                "valueValue": "token"
+            }
+        ],
+        "x": 670,
+        "y": 4880,
+        "wires": [
+            [
+                "d10b7b71ef5dfb6e"
+            ]
+        ]
+    },
+    {
+        "id": "af8603c8cd0f3864",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "af65c270ec425ca3",
+        "name": "F_SetValue",
+        "func": "let token = flow.get(\"TOKEN\");\nmsg.url='http://192.168.3.225:8080/api/rpc/twoway/70d6a950-dbd4-11ee-bc16-3522647102c3'\nmsg.payload={\n  \"method\": \"EngineSetValue\",\n  \"params\": msg.payload,\n  \"persistent\": false,\n  \"timeout\": 5000\n}\n\nmsg.token=token;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 4880,
+        "wires": [
+            [
+                "fdf3b827fc74b669",
+                "dea8ba391a3425e4"
+            ]
+        ]
+    },
+    {
+        "id": "d10b7b71ef5dfb6e",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "af65c270ec425ca3",
+        "name": "F_set_label_startingon",
+        "func": "msg.label=\"Starting ...\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 4880,
+        "wires": [
+            [
+                "6cec6a147cac1ca0"
+            ]
+        ]
+    },
+    {
+        "id": "744e5c6a8e9c35c0",
+        "type": "http request",
+        "z": "c45756e6e9a0f0ed",
+        "g": "df564d1c47ae11c3",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "X-Authorization",
+                "valueType": "msg",
+                "valueValue": "token"
+            }
+        ],
+        "x": 510,
+        "y": 5120,
+        "wires": [
+            [
+                "aabadd74cd1da3ec"
+            ]
+        ]
+    },
+    {
+        "id": "9fec6220aa0edf1b",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "df564d1c47ae11c3",
+        "name": "F_GetTelemetry",
+        "func": "let token = flow.get(\"TOKEN\");\nmsg.url = 'http://192.168.3.225:8080/api/plugins/telemetry/DEVICE/70d6a950-dbd4-11ee-bc16-3522647102c3/values/timeseries?keys=engine'\n\nmsg.token=token;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 5120,
+        "wires": [
+            [
+                "744e5c6a8e9c35c0"
+            ]
+        ]
+    },
+    {
+        "id": "aabadd74cd1da3ec",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "df564d1c47ae11c3",
+        "name": "F_GetTelemetry_2",
+        "func": "let temp = JSON.parse(msg.payload);\nmsg.payload=temp[\"engine\"][0][\"value\"]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 5120,
+        "wires": [
+            [
+                "7a61e85e981f0256",
+                "0cec506d0748368c"
+            ]
+        ]
+    },
+    {
+        "id": "82b4142eba099d65",
+        "type": "delay",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 980,
+        "y": 4940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14574a03fcf4803b",
+        "type": "ui_text",
+        "z": "c45756e6e9a0f0ed",
+        "g": "df564d1c47ae11c3",
+        "group": "6409c3bb2eab31c2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1190,
+        "y": 5140,
+        "wires": []
+    },
+    {
+        "id": "dea8ba391a3425e4",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "d": true,
+        "g": "af65c270ec425ca3",
+        "name": "F_setToken",
+        "func": "let temp = JSON.parse(msg.payload);\nif (temp[\"params\"]){\n\nmsg.payload=\"Starting On\"\n}else{\n    msg.payload=\"Starting OFF\"\n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 4840,
+        "wires": [
+            [
+                "14574a03fcf4803b"
+            ]
+        ]
+    },
+    {
+        "id": "6cec6a147cac1ca0",
+        "type": "rbe",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 770,
+        "y": 4940,
+        "wires": [
+            [
+                "82b4142eba099d65"
+            ]
+        ]
+    },
+    {
+        "id": "7a61e85e981f0256",
+        "type": "change",
+        "z": "c45756e6e9a0f0ed",
+        "g": "df564d1c47ae11c3",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "str",
+                "to": "Engine On",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "str",
+                "to": "Engine Off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 5140,
+        "wires": [
+            [
+                "14574a03fcf4803b"
+            ]
+        ]
+    },
+    {
+        "id": "d0e5ac23b6997977",
+        "type": "debug",
+        "z": "c45756e6e9a0f0ed",
+        "name": "debug 71",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 5000,
+        "wires": []
+    },
+    {
+        "id": "6bca45b6a18b2a40",
+        "type": "inject",
+        "z": "c45756e6e9a0f0ed",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "4",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 5200,
+        "wires": [
+            [
+                "9fec6220aa0edf1b",
+                "9be628a692620a5f"
+            ]
+        ]
+    },
+    {
+        "id": "1e938f8476190a28",
+        "type": "link out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "engine-Out1",
+        "mode": "link",
+        "links": [
+            "fa586937ad1c34cb"
+        ],
+        "x": 705,
+        "y": 3960,
+        "wires": []
+    },
+    {
+        "id": "44eae65fe9c57599",
+        "type": "link out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "windows-2-Out",
+        "mode": "link",
+        "links": [
+            "c448b71c951665a3"
+        ],
+        "x": 695,
+        "y": 4040,
+        "wires": []
+    },
+    {
+        "id": "ae0088cd4f0143dd",
+        "type": "link out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "windows-3-Out",
+        "mode": "link",
+        "links": [
+            "29fd9b16bb267b51"
+        ],
+        "x": 695,
+        "y": 4080,
+        "wires": []
+    },
+    {
+        "id": "f2b987a263017a4f",
+        "type": "link out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "windows-4-Out",
+        "mode": "link",
+        "links": [
+            "c2abcb3904830976"
+        ],
+        "x": 695,
+        "y": 4120,
+        "wires": []
+    },
+    {
+        "id": "664e7ef34f1b7f72",
+        "type": "link out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "FuelPump_out",
+        "mode": "link",
+        "links": [
+            "a2f280f2aefd3a27"
+        ],
+        "x": 695,
+        "y": 4160,
+        "wires": []
+    },
+    {
+        "id": "5176ddbc9119d26b",
+        "type": "link out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "Trunk_Out",
+        "mode": "link",
+        "links": [
+            "8bf8cbcb0ee8f140"
+        ],
+        "x": 685,
+        "y": 4200,
+        "wires": []
+    },
+    {
+        "id": "ad2e6a70b1ba2cb1",
+        "type": "link out",
+        "z": "c45756e6e9a0f0ed",
+        "g": "459bf799a305feb2",
+        "name": "windows-1-Out",
+        "mode": "link",
+        "links": [
+            "fe4da20dca96ee36"
+        ],
+        "x": 695,
+        "y": 4000,
+        "wires": []
+    },
+    {
+        "id": "a1f49f8384b18fbb",
+        "type": "http request",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bcca841510566b6b",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "X-Authorization",
+                "valueType": "msg",
+                "valueValue": "token"
+            }
+        ],
+        "x": 510,
+        "y": 5280,
+        "wires": [
+            [
+                "2aef8adc0e5db9b5"
+            ]
+        ]
+    },
+    {
+        "id": "9be628a692620a5f",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bcca841510566b6b",
+        "name": "F_GetTelemetry",
+        "func": "let token = flow.get(\"TOKEN\");\nmsg.url = 'http://192.168.3.225:8080/api/plugins/telemetry/DEVICE/70d6a950-dbd4-11ee-bc16-3522647102c3/values/timeseries?keys=rpm'\n\nmsg.token=token;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 5280,
+        "wires": [
+            [
+                "a1f49f8384b18fbb"
+            ]
+        ]
+    },
+    {
+        "id": "2aef8adc0e5db9b5",
+        "type": "function",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bcca841510566b6b",
+        "name": "F_GetTelemetry_2",
+        "func": "let temp = JSON.parse(msg.payload);\nmsg.payload=temp[\"rpm\"][0][\"value\"]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 5280,
+        "wires": [
+            [
+                "e49cf83a367996a0"
+            ]
+        ]
+    },
+    {
+        "id": "e49cf83a367996a0",
+        "type": "ui_gauge",
+        "z": "c45756e6e9a0f0ed",
+        "g": "bcca841510566b6b",
+        "name": "",
+        "group": "6409c3bb2eab31c2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1170,
+        "y": 5280,
+        "wires": []
+    },
+    {
+        "id": "7bcfe0d9572d9919",
+        "type": "ui_group",
+        "name": "Engine",
+        "tab": "74b89b6b23b306b7",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f1af30626a5bc418",
+        "type": "ui_group",
+        "name": "doors",
+        "tab": "74b89b6b23b306b7",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1bfe7c0dcaa7714e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "wia0ii9elfw9ao9jl0b3",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "71a0e99f51774889",
+        "type": "ui_group",
+        "name": "Dashboard",
+        "tab": "74b89b6b23b306b7",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6409c3bb2eab31c2",
+        "type": "ui_group",
+        "name": "APP Mobile",
+        "tab": "871f4321eeafb1d1",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "74b89b6b23b306b7",
+        "type": "ui_tab",
+        "name": "TCM",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "871f4321eeafb1d1",
+        "type": "ui_tab",
+        "name": "APP Mobile",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
