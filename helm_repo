@@ -1,0 +1,7 @@
+helm repo add thingsboard https://midokura.github.io/thingsboard-ce-k8s
+
+
+helm install my-thingsboard thingsboard/thingsboard --version 0.1.1
+
+
+https://github.com/midokura/thingsboard-ce-k8s?tab=readme-ov-file
